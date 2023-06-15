@@ -1,0 +1,37 @@
+.container {
+  width: 1320px;
+  margin: 0 30px;
+  padding: 0 6px;
+}
+
+img {
+  width: 200px;
+  margin-bottom: 8px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  /* margin: auto; */
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4px;
+  width: 200px;
+  align-items: center;
+  border: 1px solid black;
+  margin: 4px;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.form {
+  text-align: center;
+  margin-bottom: 10px;
+}
